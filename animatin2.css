@@ -1,0 +1,43 @@
+div{
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+
+}
+
+.d1 {
+align-items: center;
+align-content: center;
+    height: 150px;
+    width: 200px;
+    background-color: gainsboro;
+}
+.d11 {
+     position: absolute; 
+     left: 50px;
+     top: 30PX;
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    rotate: 50deg;
+    transition: 1s; 
+
+}
+
+
+.d2 {
+    height: 150px;
+    width: 200px;
+    background-color: gainsboro;
+}
+.d22 {
+     position: relative;  
+     left: 50px;
+     top: 30PX;
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    rotate: 50deg;
+    transition: 1s; 
+}

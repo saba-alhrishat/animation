@@ -1,0 +1,37 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation: box 2s linear 2s 1 normal backwards;
+}
+
+@keyframes box{
+    0%{
+        translate: 0 0;
+        background-color: red;
+    }
+
+
+    25%{
+        translate: 0 200px;
+        background-color: yellow;
+    }
+
+
+    50%{
+        translate: 200px 200px;
+        background-color: blue;
+    }
+
+
+    75%{
+        translate: 200px 0;
+        background-color: red;
+    }
+
+    100%{
+        translate: 0 0;
+        background-color: red;
+    }
+
+}

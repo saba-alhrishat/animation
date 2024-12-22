@@ -1,0 +1,33 @@
+div {
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    animation: box 10s 0 none normal both; 
+    /* transition :  */
+ }
+
+
+/* .dd {
+    transition: color red 4s  ;
+} */
+
+
+
+ @keyframes box {
+
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: blue;
+    }
+ } 

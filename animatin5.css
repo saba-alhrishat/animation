@@ -1,0 +1,15 @@
+*{
+    padding: 10px;
+    margin: 10px;
+}
+
+.div1 {
+    opacity: 0.3;
+}
+.div2 {
+    
+/* translate:20px 40px ;     */
+position: absolute;
+    top: 0;
+    rotate: 30deg;
+}
